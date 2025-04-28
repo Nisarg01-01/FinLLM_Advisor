@@ -4,7 +4,7 @@ import numpy as np
 import json
 from datetime import datetime, timedelta
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
-from model_structure import load_data, transformer
+from Informer_structure import load_data, transformer
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
